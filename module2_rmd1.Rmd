@@ -3,9 +3,9 @@ title: "Module 2 - R Markdown Document 1"
 author: "Elizabeth Juhasz"
 date: "2025-09-30"
 output:
-  pdf_document: default
   word_document: default
   html_document: default
+  pdf_document: default
 ---
 
  This is a level 1 header
@@ -123,3 +123,20 @@ knitr::kable(head(cars),
 
 ## Insert an equation
 $$ Y = \beta_0 + \beta_1x $$
+## Insert Images
+
+Here is an image inserted
+![sunstar](sunstar.png)
+Here is the R logo. 
+![r logo](https://www.r-project.org/logo/Rlogo.svg)
+## Insert an Animated GIF and Video
+
+![sunstar](sunstar/sunstar.gif)
+
+![sunstar](sunstar/sunstar.mp4)
+
+## Insert test with some footnotes
+
+Here is footnote reference [^1] and another [^longnote]
+
+Here is an inline footnote ^[Inline notes are easier to write, since you don't have to pick an identifier and move down to type the note]
